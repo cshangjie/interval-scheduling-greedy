@@ -14,16 +14,16 @@ def myFunc(e):
 
 def main():
     ans = ""
-    sysnext = next(sys.stdin)
-    num_instances = int(sysnext.strip())
+    instance_input = next(sys.stdin)
+    num_instances = int(instance_input.strip())
     while num_instances > 0:
-        sysnext = next(sys.stdin)
-        num_jobs = int(sysnext.strip())
+        num_job_input = next(sys.stdin)
+        num_jobs = int(num_job_input.strip())
         jobs = []
         for _i in range(num_jobs):
-            sysnext = next(sys.stdin)
-            start_time = int(sysnext.strip().split()[0])
-            end_time = int(sysnext.strip().split()[1])
+            job_input = next(sys.stdin)
+            start_time = int(job_input.strip().split()[0])
+            end_time = int(job_input.strip().split()[1])
             job = [start_time, end_time]
             jobs.append(job)
         jobs.sort(key=myFunc)
