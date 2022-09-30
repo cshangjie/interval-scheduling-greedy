@@ -1,5 +1,4 @@
-Greedy Algorithm for Interval Scheduling of jobs with equal weight
-Interval Scheduling of equal weights\
+# Greedy Algorithm for Interval Scheduling of jobs with equal weight
 Takes input in the following format:
 
 ```
@@ -20,4 +19,16 @@ i.e.
 3 4
 2 6
 ```
-
+## Handled Edge Cases
+start_time > end_time    
+```
+1
+1
+5 0
+```
+negative times
+```
+1
+1
+-1 2
+```
