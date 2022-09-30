@@ -1,8 +1,9 @@
 # interval-scheduling-greedy
 Interval Scheduling of equal weights
 Takes input in the following format:
-# Instances
-# Jobs
+
+Number_Instances
+Number_Jobs
 start_time end_time
 
 i.e.
