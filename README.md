@@ -6,11 +6,11 @@ Number_Instances
 Number_Jobs
 start_time end_time
 
-i.e.
-2
-1
-1 2
-3
-1 2
-3 4
-2 6
+i.e.\
+2\
+1\
+1 2\
+3\
+1 2\
+3 4\
+2 6\
